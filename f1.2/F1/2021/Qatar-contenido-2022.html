@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>QATAR 2021</title>
+
+    <link rel="shortcut icon" href="../../img/F1/iconos/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!--css-->
+    <link rel="stylesheet" href="../../css/general.css" />
+    <link rel="stylesheet" href="../../css/repeticionVideo.css" />
+
+    <!--librerias-->
+    <script src="https://kit.fontawesome.com/e77fc0ae51.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <a class="back-arrow" href="https://burnoutf1.com/F1/temporada/2021.html"><i class="fas fa-arrow-circle-left"></i></a>
+
+    <p class="title-gp">GP QATAR</p>
+
+    <script src='//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js'></script>
+    <div class='outer' ng-app='tabs'>
+        <div class='tabs' ng-controller='shift_tabs as shift'>
+            <div class='tab-buttons' ng-init='shift.makeShift(1)'>
+
+                <button ng-click='shift.makeShift(1)' ng-class='{active:shift.isActive(1)}'>DANZ</button>
+
+            </div>
+            <div class='tab-content'>
+                <div ng-show='shift.isActive(1)'><iframe src="https://vk.com/video_ext.php?oid=747314243&id=456239043&hash=ea3c69cc01e79440" frameborder="0"
+                        allowfullscreen></iframe></div>
+            </div>
+        </div>
+
+
+        <script>
+            var myApp = angular.module("tabs", []);
+            myApp.controller("shift_tabs", function () {
+                this.activeTab;
+                this.makeShift = function (e) {
+                    this.activeTab = e;
+                };
+                this.isActive = function (f) {
+                    if (f == this.activeTab) {
+                        return true;
+                    }
+                };
+            });
+        </script>
+
+        <script src="#"></script>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Belgica 2022</title>
+
+    <link rel="shortcut icon" href="../../img/F1/iconos/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!--css-->
+    <link rel="stylesheet" href="../../css/general.css" />
+    <link rel="stylesheet" href="../../css/repeticionVideo.css" />
+
+    <!--librerias-->
+    <script src="https://kit.fontawesome.com/e77fc0ae51.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <a class="back-arrow" href="https://deportesymas.com.es/F1/temporada/2022.html"><i class="fas fa-arrow-circle-left"></i></a>
+
+    <p class="title-gp">GP Belgica</p>
+
+    <script src='//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js'></script>
+    <div class='outer' ng-app='tabs'>
+        <div class='tabs' ng-controller='shift_tabs as shift'>
+            <div class='tab-buttons' ng-init='shift.makeShift(1)'>
+
+                <button ng-click='shift.makeShift(1)' ng-class='{active:shift.isActive(1)}'>R DANZ</button>
+                <button ng-click='shift.makeShift(2)' ng-class='{active:shift.isActive(2)}'>R ESPN</button>
+                <button ng-click='shift.makeShift(3)' ng-class='{active:shift.isActive(3)}'>Q DANZ</button>
+                <button ng-click='shift.makeShift(4)' ng-class='{active:shift.isActive(4)}'>Q ESPN</button>
+
+            </div>
+            <div class='tab-content'>
+                <div ng-show='shift.isActive(1)'><iframe src="https://vk.com/video_ext.php?oid=747314243&id=456239019&hash=44c61cd2fd50f40e" frameborder="0"
+                    allowfullscreen></iframe></div>
+
+                <div ng-show='shift.isActive(2)'><iframe src="//ok.ru/videoembed/3674586811006" frameborder="0"
+                    allowfullscreen></iframe></div>
+
+                <div ng-show='shift.isActive(3)'><iframe src="https://vk.com/video_ext.php?oid=747314243&id=456239017&hash=85966a66968d8062" frameborder="0"
+                    allowfullscreen></iframe></div>
+
+                <div ng-show='shift.isActive(4)'><iframe src="//ok.ru/videoembed/3674628688510" frameborder="0"
+                    allowfullscreen></iframe></div>
+
+                
+            </div>
+        </div>
+
+        
+
+    <script id="chatBroEmbedCode">
+    /* Chatbro Widget Embed Code Start */
+    function ChatbroLoader(chats,async){async=!1!==async;var params={embedChatsParameters:chats instanceof Array?chats:[chats],lang:navigator.language||navigator.userLanguage,needLoadCode:'undefined'==typeof Chatbro,embedParamsVersion:localStorage.embedParamsVersion,chatbroScriptVersion:localStorage.chatbroScriptVersion},xhr=new XMLHttpRequest;xhr.withCredentials=!0,xhr.onload=function(){eval(xhr.responseText)},xhr.onerror=function(){console.error('Chatbro loading error')},xhr.open('GET','//www.chatbro.com/embed.js?'+btoa(unescape(encodeURIComponent(JSON.stringify(params)))),async),xhr.send()}
+    /* Chatbro Widget Embed Code End */
+    ChatbroLoader({encodedChatId: '98X2J'});
+    </script>
+    
+    <script>
+        var myApp = angular.module("tabs", []);
+        myApp.controller("shift_tabs", function () {
+            this.activeTab;
+            this.makeShift = function (e) {
+                this.activeTab = e;
+            };
+            this.isActive = function (f) {
+                if (f == this.activeTab) {
+                    return true;
+                }
+            };
+        });
+    </script>
+
+    <script src="#"></script>
+</body>
+
+</html>

@@ -1,0 +1,365 @@
+
+.back-general {
+    background-image:
+        url(../../img/F1/ProximosEventos/background-General.webp);
+    background: -webkit-linear-gradient(to top, #1111117f, #1111117f) url(../../img/F1/ProximosEventos/background-General.webp);
+    background: linear-gradient(to top,  #1111117f, #1111117f),
+        url(../../img/F1/ProximosEventos/background-General.webp);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.back-general2 {
+    background-image:
+        url(../../img/F1/ProximosEventos/background-General2.webp);
+    background: -webkit-linear-gradient(to top, #1111117f, #1111117f) url(../../img/F1/ProximosEventos/background-General2.webp);
+    background: linear-gradient(to top,  #1111117f, #1111117f),
+        url(../../img/F1/ProximosEventos/background-General2.webp);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.back-general3 {
+    background-image:
+        url(../../img/F1/ProximosEventos/background-General3.webp);
+    background: -webkit-linear-gradient(to top, #1111117f, #1111117f) url(../../img/F1/ProximosEventos/background-General3.webp);
+    background: linear-gradient(to top,  #1111117f, #1111117f),
+        url(../../img/F1/ProximosEventos/background-General3.webp);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.back-general4 {
+    background-image:
+        url(../../img/F1/ProximosEventos/background-General4.webp);
+    background: -webkit-linear-gradient(to top, #1111117f, #1111117f) url(../../img/F1/ProximosEventos/background-General4.webp);
+    background: linear-gradient(to top,  #1111117f, #1111117f),
+        url(../../img/F1/ProximosEventos/background-General4.webp);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.back-barehin {
+    background-image:
+        url(../../img/F1/ProximosEventos/bahrein-track.jpg);
+    background: -webkit-linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111) url(../../img/F1/ProximosEventos/bahrein-track.jpg);
+    background: linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111),
+        url(../../img/F1/ProximosEventos/bahrein-track.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.back-jeddha {
+    background-image:
+        url(../../img/F1/ProximosEventos/jeddha-track.jpg);
+    background: -webkit-linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111) url(../../img/F1/ProximosEventos/jeddha-track.jpg);
+    background: linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111),
+        url(../../img/F1/ProximosEventos/jeddha-track.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.back-australia {
+    background-image:
+        url(../../img/F1/ProximosEventos/australiatrack-f1.jpg);
+    background: -webkit-linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111) url(../../img/F1/ProximosEventos/australiatrack-f1.jpg);
+    background: linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111),
+        url(../../img/F1/ProximosEventos/australiatrack-f1.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.back-emilia {
+    background-image:
+        url(../../img/F1/ProximosEventos/emilia-track.jpg);
+    background: -webkit-linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111) url(../../img/F1/ProximosEventos/emilia-track.jpg);
+    background: linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111),
+        url(../../img/F1/ProximosEventos/emilia-track.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.back-miami {
+    background-image:
+        url(../../img/F1/ProximosEventos/miami.jpg);
+    background: -webkit-linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111) url(../../img/F1/ProximosEventos/miami.jpg);
+    background: linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111),
+        url(../../img/F1/ProximosEventos/miami.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.back-spain {
+    background-image:
+        url(../../img/F1/ProximosEventos/espanna-track.jpg);
+    background: -webkit-linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111) url(../../img/F1/ProximosEventos/espanna-track.jpg);
+    background: linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111),
+        url(../../img/F1/ProximosEventos/espanna-track.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.back-monaco {
+    background-image:
+        url(../../img/F1/ProximosEventos/Monaco-track.jpg);
+    background: -webkit-linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111) url(../../img/F1/ProximosEventos/Monaco-track.jpg);
+    background: linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111),
+        url(../../img/F1/ProximosEventos/Monaco-track.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.back-baku {
+    background-image:
+        url(../../img/F1/ProximosEventos/baku-track.jpg);
+    background: -webkit-linear-gradient(to top, #1111117f, #1111117f) url(../../img/F1/ProximosEventos/baku-track.jpg);
+    background: linear-gradient(to top,  #1111117f, #1111117f),
+        url(../../img/F1/ProximosEventos/baku-track.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.back-canada {
+    background-image:
+        url(../../img/F1/ProximosEventos/canada.jpg);
+    background: -webkit-linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111) url(../../img/F1/ProximosEventos/canada.jpg);
+    background: linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111),
+        url(../../img/F1/ProximosEventos/canada.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.back-GB {
+    background-image:
+        url(../../img/F1/ProximosEventos/GBGP.jpg);
+    background: -webkit-linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111) url(../../img/F1/ProximosEventos/GBGP.jpg);
+    background: linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111),
+        url(../../img/F1/ProximosEventos/GBGP.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.back-austria {
+    background-image:
+        url(../../img/F1/ProximosEventos/austria-track.jpg);
+    background: -webkit-linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111) url(../../img/F1/ProximosEventos/austria-track.jpg);
+    background: linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111),
+        url(../../img/F1/ProximosEventos/austria-track.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.back-francia {
+    background-image:
+        url(../../img/F1/ProximosEventos/francia-paulricard.jpg);
+    background: -webkit-linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111) url(../../img/F1/ProximosEventos/francia-paulricard.jpg);
+    background: linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111),
+        url(../../img/F1/ProximosEventos/francia-paulricard.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.back-hungria {
+    background-image:
+        url(../../img/F1/ProximosEventos/hungria.jpg);
+    background: -webkit-linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111) url(../../img/F1/ProximosEventos/hungria.jpg);
+    background: linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111),
+        url(../../img/F1/ProximosEventos/hungria.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.back-spa {
+    background-image:
+        url(../../img/F1/ProximosEventos/spa-track.jpg);
+    background: -webkit-linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111) url(../../img/F1/ProximosEventos/spa-track.jpg);
+    background: linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111),
+        url(../../img/F1/ProximosEventos/spa-track.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.back-dutch {
+    background-image:
+        url(../../img/F1/ProximosEventos/paisesBajos.jpg);
+    background: -webkit-linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111) url(../../img/F1/ProximosEventos/paisesBajos.jpg);
+    background: linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111),
+        url(../../img/F1/ProximosEventos/paisesBajos.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.back-monza {
+    background-image:
+        url(../../img/F1/ProximosEventos/monza.jpg);
+    background: -webkit-linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111) url(../../img/F1/ProximosEventos/monza.jpg);
+    background: linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111),
+        url(../../img/F1/ProximosEventos/monza.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.back-singapur {
+    background-image:
+        url(../../img/F1/ProximosEventos/singapur.jpg);
+    background: -webkit-linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111) url(../../img/F1/ProximosEventos/singapur.jpg);
+    background: linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111),
+        url(../../img/F1/ProximosEventos/singapur.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.back-japon {
+    background-image:
+        url(../../img/F1/ProximosEventos/japon.jpg);
+    background: -webkit-linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111) url(../../img/F1/ProximosEventos/japon.jpg);
+    background: linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111),
+        url(../../img/F1/ProximosEventos/japon.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.back-EU {
+    background-image:
+        url(../../img/F1/ProximosEventos/austin-track.jpg);
+    background: -webkit-linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111) url(../../img/F1/ProximosEventos/austin-track.jpg);
+    background: linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111),
+        url(../../img/F1/ProximosEventos/austin-track.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.back-mexico {
+    background-image:
+        url(../../img/F1/ProximosEventos/mexico-track.jpg);
+    background: -webkit-linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111) url(../../img/F1/ProximosEventos/mexico-track.jpg);
+    background: linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111),
+        url(../../img/F1/ProximosEventos/mexico-track.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.back-brasil {
+    background-image:
+        url(../../img/F1/ProximosEventos/brasil-track.jpg);
+    background: -webkit-linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111) url(../../img/F1/ProximosEventos/brasil-track.jpg);
+    background: linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111),
+        url(../../img/F1/ProximosEventos/brasil-track.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.back-abu dabhi {
+    background-image:
+        url(../../img/F1/ProximosEventos/abudhabi-track.jpg);
+    background: -webkit-linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111) url(../../img/F1/ProximosEventos/abudhabi-track.jpg);
+    background: linear-gradient(to top, #111111, #111111d7, #11111130, #11111130, #111111d7, #111111),
+        url(../../img/F1/ProximosEventos/abudhabi-track.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

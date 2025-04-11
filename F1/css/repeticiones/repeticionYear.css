@@ -1,0 +1,670 @@
+body {
+    background-color: #1b1b1c;
+    position: relative;
+}
+
+.contenedor-de-carreras {
+    position: relative;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    background-color: #111111;
+    margin: 40px auto;
+    width: 52%;
+    min-height: 100vh;
+    border-radius: 30px;
+
+    box-shadow: rgba(0, 0, 0, 0.173) 0px 1px 2px, rgba(0, 0, 0, 0.179) 0px 2px 4px, rgba(0, 0, 0, 0.156) 0px 4px 8px, rgba(0, 0, 0, 0.156) 0px 8px 16px, rgba(0, 0, 0, 0.168) 0px 16px 32px, rgba(0, 0, 0, 0.23) 0px 32px 64px;
+}
+
+
+
+
+
+/*==================BANER 1================*/
+
+.background-title-year {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+}
+
+.title-year {
+    color: #ffffff;
+    font-family: "myFont";
+    font-size: 30px;
+    text-align: left;
+    margin: 25px;
+}
+
+.x-para-leave{
+    color: #ffffff;
+    font-size: 40px;
+    text-shadow: 4px 3px 12px #000000;
+
+    position: absolute;
+    top: 1%;  
+    left: 95%; 
+    transform: translate(-50%, -50%);
+    transition: 300ms;
+}
+
+.x-para-leave:hover{
+    color: #ffffffce;
+    text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.858);
+}
+
+.sub-title-year{
+    color: #ffffff;
+    font-family: "myFont2";
+    font-size: 20px;
+    text-align: left;
+    margin: 5px 0px 5px 25px;
+}
+
+.p-year{
+    color: #ffffff;
+    font-family: "myFont3";
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: left;
+    margin: 5px 15px 5px 25px;
+}
+
+
+
+
+/*==================CARRERAS================*/
+
+.contenedor-general-de-carreras{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0px 25px 0px;
+
+    width: 100%;
+}
+
+.contenedor-general-de-carreras-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px 10px;
+}
+
+/*------------imgs y textos-----------*/
+
+.img-carrera-general{
+    width: 210px;
+    border-radius: 7px;
+    margin-left: 25px;
+}
+
+.contenedor-nombres-general{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 5px;
+    gap: 10px 10px;
+}
+
+.p-carrera{
+    color: #ffffff;
+    font-family: "myFont3";
+    font-size: 16px;
+    margin: 0%;
+}
+
+.gp-carrera{
+    color: #ffffff;
+    font-family: "myFont2";
+    font-size: 22px;
+    margin: 0%;
+}
+
+
+/*------------btn-----------*/
+.play-btn-carrera{
+    color: #ffffff;
+    font-size: 16px;
+    font-size: 40px;
+    text-shadow: 4px 3px 12px #000000;
+    margin: 0%;
+    
+    transition: 300ms;
+
+    margin-right: 25px;
+}
+
+.play-btn-carrera:hover{
+    transform: scale(1.080);
+}
+
+
+@media (max-width: 1185px) {
+    .contenedor-de-carreras {
+        position: relative;
+        box-sizing: border-box;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    
+        background-color: #111111;
+        margin: 40px auto;
+        width: 75%;
+        min-height: 100vh;
+        border-radius: 30px;
+    
+        box-shadow: rgba(0, 0, 0, 0.173) 0px 1px 2px, rgba(0, 0, 0, 0.179) 0px 2px 4px, rgba(0, 0, 0, 0.156) 0px 4px 8px, rgba(0, 0, 0, 0.156) 0px 8px 16px, rgba(0, 0, 0, 0.168) 0px 16px 32px, rgba(0, 0, 0, 0.23) 0px 32px 64px;
+    }
+    
+    
+    
+    
+    
+    /*==================BANER 1================*/
+    
+    .background-title-year {
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+    
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    
+    }
+    
+    .title-year {
+        color: #ffffff;
+        font-family: "myFont";
+        font-size: 30px;
+        text-align: left;
+        margin: 25px;
+    }
+    
+    .x-para-leave{
+        color: #ffffff;
+        font-size: 40px;
+        text-shadow: 4px 3px 12px #000000;
+    
+        position: absolute;
+        top: 1%;  
+        left: 95%; 
+        transform: translate(-50%, -50%);
+        transition: 300ms;
+    }
+    
+    .x-para-leave:hover{
+        color: #ffffffce;
+        text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.858);
+    }
+    
+    .sub-title-year{
+        color: #ffffff;
+        font-family: "myFont2";
+        font-size: 20px;
+        text-align: left;
+        margin: 5px 0px 5px 25px;
+    }
+    
+    .p-year{
+        color: #ffffff;
+        font-family: "myFont3";
+        font-weight: lighter;
+        font-size: 15px;
+        text-align: left;
+        margin: 5px 15px 5px 25px;
+    }
+    
+    
+    
+    
+    /*==================CARRERAS================*/
+    
+    .contenedor-general-de-carreras{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 25px 0px 25px 0px;
+    
+        width: 100%;
+    }
+    
+    .contenedor-general-de-carreras-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+        gap: 10px 10px;
+    }
+    
+    /*------------imgs y textos-----------*/
+    
+    .img-carrera-general{
+        width: 210px;
+        border-radius: 7px;
+        margin-left: 25px;
+    }
+    
+    .contenedor-nombres-general{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    
+        padding: 5px;
+        gap: 10px 10px;
+    }
+    
+    .p-carrera{
+        color: #ffffff;
+        font-family: "myFont3";
+        font-size: 14px;
+        margin: 0%;
+    }
+    
+    .gp-carrera{
+        color: #ffffff;
+        font-family: "myFont2";
+        font-size: 19px;
+        margin: 0%;
+    }
+    
+    
+    /*------------btn-----------*/
+    .play-btn-carrera{
+        color: #ffffff;
+        font-size: 16px;
+        font-size: 40px;
+        text-shadow: 4px 3px 12px #000000;
+        margin: 0%;
+        
+        transition: 300ms;
+    
+        margin-right: 25px;
+    }
+    
+    .play-btn-carrera:hover{
+        transform: scale(1.080);
+    }
+     
+}
+
+
+
+@media (max-width: 720px) {
+    .contenedor-de-carreras {
+        position: relative;
+        box-sizing: border-box;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    
+        background-color: #111111;
+        margin: 20px auto;
+        width: 95%;
+        min-height: 100vh;
+        border-radius: 30px;
+    
+        box-shadow: rgba(0, 0, 0, 0.173) 0px 1px 2px, rgba(0, 0, 0, 0.179) 0px 2px 4px, rgba(0, 0, 0, 0.156) 0px 4px 8px, rgba(0, 0, 0, 0.156) 0px 8px 16px, rgba(0, 0, 0, 0.168) 0px 16px 32px, rgba(0, 0, 0, 0.23) 0px 32px 64px;
+    }
+    
+    
+    
+    
+    
+    /*==================BANER 1================*/
+    
+    .background-title-year {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+    
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    
+    }
+    
+    .title-year {
+        color: #ffffff;
+        font-family: "myFont";
+        font-size: 25px;
+        text-align: center;
+        margin: 10px auto;
+    }
+    
+    .x-para-leave{
+        color: #ffffff;
+        font-size: 40px;
+        text-shadow: 4px 3px 12px #000000;
+    
+        position: absolute;
+        top: 1%;  
+        left: 90%; 
+        transform: translate(-50%, -50%);
+        transition: 300ms;
+    }
+    
+    .x-para-leave:hover{
+        color: #ffffffce;
+        text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.858);
+    }
+    
+    .sub-title-year{
+        color: #ffffff;
+        font-family: "myFont2";
+        font-size: 20px;
+        text-align: center;
+        margin: 5px auto;
+    }
+    
+    .p-year{
+        color: #ffffff;
+        font-family: "myFont3";
+        font-weight: lighter;
+        font-size: 13px;
+        text-align: center;
+        margin: 5px auto;
+        padding: 5px;
+    }
+
+    
+    /*==================CARRERAS================*/
+    
+    .contenedor-general-de-carreras{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 25px 0px 25px 0px;
+    
+        width: 100%;
+    }
+    
+    .contenedor-general-de-carreras-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+        gap: 10px 10px;
+    }
+    
+    /*------------imgs y textos-----------*/
+    
+    .img-carrera-general{
+        width: 125px;
+        border-radius: 7px;
+        margin-left: 5px;
+    }
+    
+    .contenedor-nombres-general{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    
+        padding: 5px;
+        gap: 10px 10px;
+    }
+    
+    .p-carrera{
+        color: #ffffff;
+        font-family: "myFont3";
+        font-size: 13px;
+        margin: 0%;
+    }
+    
+    .gp-carrera{
+        color: #ffffff;
+        font-family: "myFont2";
+        font-size: 16px;
+        margin: 0%;
+    }
+    
+    
+    /*------------btn-----------*/
+    .play-btn-carrera{
+        color: #ffffff;
+        font-size: 16px;
+        font-size: 40px;
+        text-shadow: 4px 3px 12px #000000;
+        margin: 0%;
+        
+        transition: 300ms;
+    
+        margin-right: 10px;
+    }
+    
+    .play-btn-carrera:hover{
+        transform: scale(1.080);
+    }
+     
+}
+
+
+
+@media (max-width: 345px) {
+    .contenedor-de-carreras {
+        position: relative;
+        box-sizing: border-box;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    
+        background-color: #111111;
+        margin: 0px auto;
+        width: 100%;
+        min-height: 100vh;
+        border-radius: 3px;
+    
+        box-shadow: rgba(0, 0, 0, 0.173) 0px 1px 2px, rgba(0, 0, 0, 0.179) 0px 2px 4px, rgba(0, 0, 0, 0.156) 0px 4px 8px, rgba(0, 0, 0, 0.156) 0px 8px 16px, rgba(0, 0, 0, 0.168) 0px 16px 32px, rgba(0, 0, 0, 0.23) 0px 32px 64px;
+    }
+    
+    
+    
+    
+    
+    /*==================BANER 1================*/
+    
+    .background-title-year {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+    
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    
+    }
+    
+    .title-year {
+        color: #ffffff;
+        font-family: "myFont";
+        font-size: 25px;
+        text-align: center;
+        margin: 10px auto;
+    }
+    
+    .x-para-leave{
+        color: #ffffff;
+        font-size: 40px;
+        text-shadow: 4px 3px 12px #000000;
+    
+        position: absolute;
+        top: 1%;  
+        left: 90%; 
+        transform: translate(-50%, -50%);
+        transition: 300ms;
+    }
+    
+    .x-para-leave:hover{
+        color: #ffffffce;
+        text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.858);
+    }
+    
+    .sub-title-year{
+        color: #ffffff;
+        font-family: "myFont2";
+        font-size: 20px;
+        text-align: center;
+        margin: 5px auto;
+    }
+    
+    .p-year{
+        color: #ffffff;
+        font-family: "myFont3";
+        font-weight: lighter;
+        font-size: 13px;
+        text-align: center;
+        margin: 5px auto;
+        padding: 5px;
+    }
+
+    
+    /*==================CARRERAS================*/
+    
+    .contenedor-general-de-carreras{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 25px 0px 25px 0px;
+    
+        width: 100%;
+    }
+    
+    .contenedor-general-de-carreras-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+        gap: 10px 10px;
+    }
+    
+    /*------------imgs y textos-----------*/
+    
+    .img-carrera-general{
+        width: 105px;
+        border-radius: 7px;
+        margin-left: 5px;
+    }
+    
+    .contenedor-nombres-general{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    
+        padding: 5px;
+        gap: 10px 10px;
+    }
+    
+    .p-carrera{
+        color: #ffffff;
+        font-family: "myFont3";
+        font-size: 12px;
+        margin: 0%;
+    }
+    
+    .gp-carrera{
+        color: #ffffff;
+        font-family: "myFont2";
+        font-size: 14px;
+        margin: 0%;
+    }
+    
+    
+    /*------------btn-----------*/
+    .play-btn-carrera{
+        color: #ffffff;
+        font-size: 16px;
+        font-size: 40px;
+        text-shadow: 4px 3px 12px #000000;
+        margin: 0%;
+        
+        transition: 300ms;
+    
+        margin-right: 10px;
+    }
+    
+    .play-btn-carrera:hover{
+        transform: scale(1.080);
+    }
+     
+}
+
+
+/*===========AÑOS====================*/
+
+.y2021{
+    background-image: url(../../img/F1/temporada/2021.webp);
+    background: -webkit-linear-gradient(to top, #111111, #111111e8, #11111176, #00000000 , #00000000 , #11111151, #111111e8),
+        url(../../img/F1/temporada/2021.webp);
+    background: linear-gradient(to top, #111111, #111111e8, #11111176, #00000000, #00000000, #11111151, #111111e8),
+        url(../../img/F1/temporada/2021.webp);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 60vh;
+    width: 100%;
+}
+
+.y2022{
+    background-image: url(../../img/F1/temporada/2022.webp);
+    background: -webkit-linear-gradient(to top, #111111, #111111e8, #11111176, #00000000 , #00000000 , #11111151, #111111e8),
+        url(../../img/F1/temporada/2022.webp);
+    background: linear-gradient(to top, #111111, #111111e8, #11111176, #00000000, #00000000, #11111151, #111111e8),
+        url(../../img/F1/temporada/2022.webp);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 60vh;
+    width: 100%;
+}
+
+.y2023{
+    background-image: url(../../img/F1/temporada/2023.webp);
+    background: -webkit-linear-gradient(to top, #111111, #111111e8, #11111176, #00000000 , #00000000 , #11111151, #111111e8),
+        url(../../img/F1/temporada/2023.webp);
+    background: linear-gradient(to top, #111111, #111111e8, #11111176, #00000000, #00000000, #11111151, #111111e8),
+        url(../../img/F1/temporada/2023.webp);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 60vh;
+    width: 100%;
+}

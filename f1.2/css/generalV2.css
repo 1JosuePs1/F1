@@ -1,0 +1,231 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+a,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+}
+
+body {
+    line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* change colours to suit your needs */
+
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input,
+select {
+    vertical-align: middle;
+}
+
+body{
+    background-color: #111111;
+}
+
+
+@font-face {
+    font-family: "myFont";
+    src: url("../img/fuentes/Formula1-Black.ttf");
+}
+
+@font-face {
+    font-family: "myFont2";
+    src: url("../img/fuentes/Formula1-Bold.ttf");
+}
+
+
+@font-face {
+    font-family: "myFont3";
+    src: url("../img/fuentes/Formula1-Regular.ttf");
+}
+
+@font-face {
+    font-family: "myFont4";
+    src: url("../img/fuentes/Formula1-Wide.ttf");
+}
+  
+@font-face {
+    font-family: "myFont5";
+    src: url("../img/fuentes/GothamRM.otf");
+}
+
+@font-face {
+    font-family: "myFont6";
+    src: url("../img/fuentes/LEMONMILK-Regular.otf");
+}
+
+@font-face {
+    font-family: "myFont7";
+    src: url("../img/fuentes/LEMONMILK-Light.otf");
+}
+
+body::-webkit-scrollbar {
+    width: 9px;
+    border: 10px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #808080;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+    border: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(240, 240, 240, 0.062); 
+    padding: 10px;
+    border: 10px;
+}
